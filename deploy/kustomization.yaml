@@ -7,4 +7,3 @@ secretGenerator:
       - secret=secretkey123
 resources:
   - postgres.yaml
-  - django.yaml
