@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="protobuf" />
+            <item index="1" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="2" class="java.lang.String" itemvalue="proto-plus" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="social_media_channel.models.DayWisePlan.objects" />
+          <option value="user.models.CompanyProfile.objects" />
+          <option value="social_media_channel.models.WeeklyMarketingPlan.objects" />
+          <option value="social_media_channel.models.MarketingPlan.objects" />
+          <option value="openai.ChatCompletion" />
+          <option value="payment.models.Plan.objects" />
+          <option value="payment.models.UserPlan.objects" />
+          <option value="authentication.models.ThirdPartyAuth.objects" />
+          <option value="payment.models.GPTTokenUsage.objects" />
+          <option value="payment.models.CreditUsageMonthly.objects" />
+          <option value="analytics.models.TrendingKeywordContent.objects" />
+          <option value="authentication.models.UserProfile.objects" />
+          <option value="project.models.short_form_models.ShortPostContent.objects" />
+          <option value="payment.models.GPTModel.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.username" />
+          <option value="django.db.models.fields.related.ForeignKey.user" />
+          <option value="project.models.long_form_models.ArticleFormatted.objects" />
+          <option value="project.models.long_form_models.LongFormContent.objects" />
+          <option value="project.models.long_form_models.ArticleOutline.objects" />
+          <option value="project.models.long_form_models.ArticlePublishDetails.objects" />
+          <option value="payment.models.RazorpayPayment.objects" />
+          <option value="project.models.document.DocumentFile.objects" />
+          <option value="project.models.document.ContentType.objects" />
+          <option value="project.models.document.Document.objects" />
+          <option value="project.models.document.FormattedDraft.objects" />
+          <option value="project.models.document.SectionHead.objects" />
+          <option value="project.models.document.SubSectionPoint.objects" />
+          <option value="project.models.document.SubSectionContent.objects" />
+          <option value="user.models.ContactUs.objects" />
+          <option value="mindgraph.models.ChatDB.objects" />
+          <option value="mindgraph.models.DocDB.objects" />
+          <option value="mindgraph.models.QnADB.objects" />
+          <option value="organisation.models.Organisation.objects" />
+          <option value="organisation.models.VectorStore.objects" />
+          <option value="marketing.models.Document.objects" />
+          <option value="marketing.models.ContentType.objects" />
+          <option value="usage.models.GenAIModel.objects" />
+          <option value="usage.models.TokenUsage.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
